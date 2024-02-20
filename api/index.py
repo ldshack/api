@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return {
         "api_compatibility": ["14"],
-        "space": "LDSHack",
+        "space": "ldshack",
         "logo": "https://www.ldshack.org/img/logo.svg",
         "url": "https://ldshack.org",
         "contact": {
